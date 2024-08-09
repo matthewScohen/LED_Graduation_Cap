@@ -56,6 +56,12 @@ def draw_UF_2023(pixels):
     draw_letter(8, 1, char_2_big, orange, pixels)
     draw_letter(8, 9, char_3_big, orange, pixels)
 
+def draw_UF_2024(pixels):
+    draw_letter(1, 2, U, blue, pixels)
+    draw_letter(1, 9, F, blue, pixels)
+    draw_letter(8, 1, char_2_big, orange, pixels)
+    draw_letter(8, 9, char_4_big, orange, pixels)
+
 def draw_ECE(pixels):
     draw_letter(1, 2, U, blue, pixels)
     draw_letter(1, 9, F, blue, pixels)

@@ -1,6 +1,6 @@
 import time
 import sys
-import board
+import board # type: ignore
 import neopixel
 import nunchuck
 import snake
@@ -58,7 +58,7 @@ def show_current_animation(current_animation, pixels, current_frame, joystick_x=
     print(f"{current_animation=}")
     global snake_parts, fruit, ball_row, ball_col, ball_vel_row, ball_vel_col, slide_length
     if current_animation == 0:
-        draw_UF_2023(pixels) 
+        draw_UF_2024(pixels) 
     elif current_animation == 1:
         draw_ECE(pixels)
     elif current_animation == 2:
